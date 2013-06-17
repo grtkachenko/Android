@@ -1,0 +1,3 @@
+[submodule "Weather-Forecast"]
+	path = Weather-Forecast
+	url = https://github.com/grtkachenko/Weather-Forecast.git

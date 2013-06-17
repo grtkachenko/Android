@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">RSSReader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_rss">RSSReader</string>
+    <string name="title_activity_links">LinksActivity</string>
+    <string name="no_links">Please add links.</string>
+    <string name="menu_delete_all">Delete all links</string>
+    <string name="menu_delete">Delete!</string>
+    <string name="title_activity_current_news_acrivity">CurrentNewsAcrivity</string>
+    <string name="title_activity_rss_reader">RssReaderActivity</string>
+    <string name="title_activity_show_description">ShowDescription</string>
+    <string name="title_activity_show_descriptio">ShowDescriptio</string>
+    <string name="authority">ru.ifmo.rain.tkachenko.database</string>
+
+
+
+</resources>

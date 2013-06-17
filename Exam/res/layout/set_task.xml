@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:paddingTop="15dp"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Title"
+                android:id="@+id/textView" android:layout_weight="5" android:gravity="center"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTitle" android:layout_gravity="center" android:hint="type non-empty title"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Task"
+                android:id="@+id/textView1" android:layout_weight="5" android:gravity="center|center_vertical"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:id="@+id/editTask" android:hint="type non-empty task" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="low"
+                android:id="@+id/lowCheckBox" android:layout_weight="1" android:checked="false"/>
+        <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="middle"
+                android:id="@+id/middleCheckBox" android:layout_weight="1" android:checked="false"/>
+        <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="high"
+                android:id="@+id/highCheckBox" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="confirm"
+            android:id="@+id/confirmButton"/>
+</LinearLayout>

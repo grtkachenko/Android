@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+
+task transform {
+    File dir = (new File("$projectDir"));
+    File buildDir = new File(dir.getPath() + "/build/check-daogenerated-files");
+
+    ext.destDir = buildDir
+    outputs.dir destDir
+    doLast {
+        println "Creating"
+        buildDir.mkdirs();
+    }
+}
